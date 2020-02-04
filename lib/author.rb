@@ -3,10 +3,10 @@ class Author
     @author = author
     @name = name
   end
-  attr_accessor :name, :post, :author
+  attr_accessor :name, :title, :author
   
-  def add_post(post)
-    post.author = self
+  def add_post(title)
+    title.author = self
   end
   
   def add_post_by_title(title)
