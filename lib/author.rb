@@ -13,6 +13,7 @@ class Author
     add_post(title)
   end
   
-  def 
+  def posts
+    Post.all.select{|post| 
     
 end
