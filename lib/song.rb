@@ -5,7 +5,7 @@ class Song
     @genre = genre
     save
   end
-  attr_accessor :artist, :song, :genre
+  attr_accessor :artist, :name, :genre
   
   def save
     @@all << self
