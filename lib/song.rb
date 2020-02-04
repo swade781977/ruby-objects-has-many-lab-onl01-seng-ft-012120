@@ -7,4 +7,5 @@ class Song
   attr_accessor :artist, :song, :genre
   
   def save
+    @@all << self
 end
