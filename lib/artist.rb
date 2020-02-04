@@ -3,4 +3,6 @@ class Artist
     @artist = artist
   end
   attr_accessor :artist
+  
+  def add_song
 end
