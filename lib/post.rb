@@ -5,7 +5,7 @@ class Post
     @author = author
     save
   end
-  attr_accessor :title :author
+  attr_accessor :title, :author
   
   def save
     @@all << self
