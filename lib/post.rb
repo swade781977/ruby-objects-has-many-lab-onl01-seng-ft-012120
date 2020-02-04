@@ -6,6 +6,9 @@ class Post
   end
   attr_accessor :title :author
   
+  def save
+    
+  
   def self.all
     @@all
   end
