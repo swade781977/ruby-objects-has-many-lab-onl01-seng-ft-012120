@@ -4,5 +4,6 @@ class Artist
   end
   attr_accessor :artist
   
-  def add_song
+  def add_song(song)
+    
 end
