@@ -5,7 +5,7 @@ class Artist
   attr_accessor :artist
   
   def add_song(song)
-    Song.artist == self
+    Song.artist = self
   
   def add_song_by_name(song)
     Song.artist = self
