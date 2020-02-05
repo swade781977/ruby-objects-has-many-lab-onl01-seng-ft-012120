@@ -8,8 +8,8 @@ class Post
   attr_accessor :title, :name, :author
   
   def author_name
-    author.name
-    binding.pry 
+    title.author
+     
   end
   def save
     @@all << self
