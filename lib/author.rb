@@ -10,7 +10,7 @@ class Author
   end
   
   def author
-    title.author
+    title.name
   end 
   
   def add_post_by_title(title)
