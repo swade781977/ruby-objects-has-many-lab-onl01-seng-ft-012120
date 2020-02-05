@@ -8,7 +8,7 @@ class Post
   attr_accessor :title, :name, :author
   
   def author_name
-    Author.title.name
+    title.name
      
   end
   def save
