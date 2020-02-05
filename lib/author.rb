@@ -1,5 +1,5 @@
 class Author
-  def initialize(author)
+  def initialize(name)
     @author = author
     @name = name
   end
