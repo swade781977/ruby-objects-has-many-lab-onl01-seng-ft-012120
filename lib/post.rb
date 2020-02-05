@@ -9,7 +9,7 @@ class Post
   
   def author_name(post)
     post.author
-  
+  end
   def save
     @@all << self
   end 
