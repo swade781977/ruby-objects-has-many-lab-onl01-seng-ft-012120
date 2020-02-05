@@ -11,7 +11,8 @@ class Post
     title.name
   end
   def author
-    title.author_name
+    title.author_name 
+  end
   def save
     @@all << self
   end 
