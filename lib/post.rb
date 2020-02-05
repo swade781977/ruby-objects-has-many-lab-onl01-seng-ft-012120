@@ -8,8 +8,11 @@ class Post
   attr_accessor :title, :name, :author
   
   def author_name
-    author.name
-     
+    if author 
+      author.name
+    else
+      nil 
+    end
   end
   def save
     @@all << self
