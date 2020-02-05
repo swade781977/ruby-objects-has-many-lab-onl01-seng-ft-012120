@@ -11,8 +11,9 @@ class Post
     if title.name 
     else
       author.name
-    binding.pry  
-  end
+     
+    end
+    binding.pry 
   end
   def save
     @@all << self
