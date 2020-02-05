@@ -6,7 +6,7 @@ class Author
   attr_accessor :name, :title, :author
   
   def add_post(title)
-    title.name = self
+    title.author = self
   end
   
   
