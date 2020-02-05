@@ -8,12 +8,8 @@ class Post
   attr_accessor :title, :name, :author
   
   def author_name
-    if title.name 
-    else
-      author.name
-     
-    end
-binding.pry 
+    author.name
+    binding.pry 
   end
   def save
     @@all << self
