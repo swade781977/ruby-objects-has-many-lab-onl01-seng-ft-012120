@@ -7,6 +7,9 @@ class Post
   end
   attr_accessor :title, :author
   
+  def author_name(post)
+    post.author
+  
   def save
     @@all << self
   end 
