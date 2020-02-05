@@ -7,6 +7,10 @@ class Song
   end
   attr_accessor :artist, :name, :genre
   
+  def artist_name
+    song.artist 
+  end
+  
   def save
     @@all << self
   end
