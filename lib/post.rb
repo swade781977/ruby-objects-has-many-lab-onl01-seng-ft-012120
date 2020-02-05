@@ -8,7 +8,7 @@ class Post
   attr_accessor :title, :name, :author
   
   def author_name
-    if author.name.empty?
+    if title.author 
       nil 
     else 
       author.name
