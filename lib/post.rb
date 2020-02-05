@@ -1,3 +1,4 @@
+require 'pry'
 class Post
   @@all =[]
   def initialize(title)
@@ -10,7 +11,8 @@ class Post
     if title.name 
     else
       author.name
-    end
+    binding.pry  
+  end
   end
   def save
     @@all << self
