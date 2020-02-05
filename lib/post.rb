@@ -9,7 +9,6 @@ class Post
   
   def author_name
    author.name ||= nil
-    end
   end
   def save
     @@all << self
