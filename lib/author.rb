@@ -1,11 +1,13 @@
 class Author
   def initialize(name)
     @name = name
+    @author = @name
   end
-  attr_accessor :name, :title
+  attr_accessor :name, :title, :author
   
   def add_post(title)
     title.name = self
+    title/author = self
   end
   
   
@@ -15,7 +17,7 @@ class Author
   end
   
   def posts
-    Post.all.select{|post| post.author_name = self}
+    Post.all.select{|post| post.author = self}
   end
   
   def self.post_count
