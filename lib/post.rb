@@ -13,7 +13,7 @@ class Post
       author.name
      
     end
-    binding.pry 
+  binding.pry 
   end
   def save
     @@all << self
