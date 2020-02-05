@@ -1,7 +1,6 @@
 class Author
   def initialize(name)
-    @name = name
-    @author = @name
+    @name = name || @author
   end
   attr_accessor :name, :title, :author
   
