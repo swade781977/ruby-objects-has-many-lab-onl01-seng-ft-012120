@@ -10,6 +10,8 @@ class Post
   def author_name
     title.name
   end
+  def author
+    title.author_name
   def save
     @@all << self
   end 
