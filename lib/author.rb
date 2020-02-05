@@ -9,7 +9,7 @@ class Author
     title.author = self
   end
   
-  def author
+  def name
     title.name
   end 
   
