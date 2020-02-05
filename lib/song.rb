@@ -8,7 +8,7 @@ class Song
   attr_accessor :artist, :name, :genre
   
   def artist_name
-    song.Artist.name 
+    song.name 
   end
   
   def save
