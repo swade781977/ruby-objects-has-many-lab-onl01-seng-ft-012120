@@ -7,7 +7,7 @@ class Song
   end
   attr_accessor :artist, :name, :genre
   
-  def artrist_name
+  def artist_name
     if artist 
       artist.name
     else
